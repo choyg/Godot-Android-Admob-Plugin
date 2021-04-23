@@ -46,7 +46,7 @@ public class GodotAdMob extends GodotPlugin {
 
     public GodotAdMob(Godot godot) {
         super(godot);
-        activity = godot;
+        activity = godot.getActivity();
     }
 
     // create and add a new layout to Godot
